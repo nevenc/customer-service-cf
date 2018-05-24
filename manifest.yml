@@ -1,0 +1,7 @@
+---
+applications:
+- name: customer-service
+  memory: 1G
+  instances: 1
+  random-route: true
+  path: target/customer-service-cf-1.0.0.jar
